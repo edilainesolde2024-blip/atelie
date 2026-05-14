@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  background: #f6f0ff;
+  color: #2a2440;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1rem;
+
+  background-color: #4A40E014;
+
+  color: #4a40e0;
+
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
+  z-index: 1000;
+}
+
+.titulos {
+  position: absolute;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  text-align: center;
+
+  font-weight: 800;
+}
+
+.menu-icon,
+.sacola {
+  cursor: pointer;
+}
+
+/* MAIN */
+.main {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 120px 60px 80px;
+
+  gap: 40px;
+}
+
+/* HERO */
+.hero {
+  max-width: 600px;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+/* BADGE */
+.badge {
+  display: inline-block;
+
+  background: #ffb3c7;
+
+  color: #b0004b;
+
+  padding: 8px 16px;
+
+  border-radius: 999px;
+
+  font-size: 12px;
+
+  letter-spacing: 1px;
+
+  margin-bottom: 20px;
+
+  font-weight: 600;
+
+  width: fit-content;
+}
+
+/* TÍTULO */
+.hero h2 {
+  font-size: 64px;
+
+  line-height: 1.05;
+
+  font-weight: 800;
+}
+
+/* DESTAQUE */
+.highlight {
+  color: #5b5cff;
+
+  font-style: italic;
+}
+
+/* PARÁGRAFO */
+.hero p {
+  margin-top: 20px;
+
+  font-size: 16px;
+
+  line-height: 1.7;
+
+  color: #4b445a;
+
+  max-width: 520px;
+}
+
+/* BOTÕES */
+.buttons {
+  display: flex;
+
+  gap: 15px;
+
+  margin-top: 30px;
+
+  flex-wrap: wrap;
+}
+
+.shop,
+.look {
+  display: inline-block;
+
+  padding: 12px 28px;
+
+  border-radius: 999px;
+
+  font-size: 15px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.shop {
+  background: #5b5cff;
+
+  color: white;
+}
+
+.look {
+  background: #5b5bff1d;
+
+  color: #5b5cff;
+}
+
+/* HOVERS */
+.shop:hover {
+  background: #4338ff;
+
+  transform: translateY(-2px);
+}
+
+.look:hover {
+  background: #dcdcff;
+
+  transform: translateY(-2px);
+}
+
+/* IMAGEM */
+.image-wrapper {
+  position: relative;
+}
+
+.hero-image {
+  width: 420px;
+
+  max-width: 100%;
+
+  height: auto;
+
+  object-fit: cover;
+
+  border-radius: 40px;
+
+  transition: 0.4s ease;
+}
+
+.hero-image:hover {
+  transform: scale(1.02);
+}
+
+/* CARD DA FRASE */
+.simply {
+  position: absolute;
+
+  left: -120px;
+
+  bottom: 40px;
+
+  background: white;
+
+  color: #5b5cff;
+
+  padding: 18px;
+
+  border-radius: 20px;
+
+  width: 240px;
+
+  font-size: 14px;
+
+  line-height: 1.5;
+
+  font-weight: 600;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* AUTOR */
+.autor {
+  display: block;
+
+  margin-top: 10px;
+
+  color: #888;
+
+  font-size: 12px;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+
+  gap: 20px;
+
+  padding: 40px 60px;
+
+  flex-wrap: wrap;
+}
+
+.cardstyle {
+  background: white;
+
+  padding: 20px;
+
+  border-radius: 20px;
+
+  max-width: 260px;
+
+  color: #555;
+
+  line-height: 1.6;
+
+  font-weight: 600;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+
+  transition: 0.3s ease;
+}
+
+.cardstyle:hover {
+  transform: translateY(-8px);
+}
+
+/* SCROLL */
+html {
+  scroll-behavior: smooth;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+
+  .header {
+    padding: 1rem;
+  }
+
+  .titulos {
+    font-size: 18px;
+  }
+
+  .main {
+    flex-direction: column;
+
+    padding: 100px 20px 40px;
+
+    gap: 40px;
+  }
+
+  .hero {
+    max-width: 100%;
+  }
+
+  .hero h2 {
+    font-size: 42px;
+
+    line-height: 1.2;
+  }
+
+  .hero p {
+    font-size: 15px;
+
+    max-width: 100%;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .shop,
+  .look {
+    width: 100%;
+
+    text-align: center;
+  }
+
+  .image-wrapper {
+    width: 100%;
+  }
+
+  .hero-image {
+    width: 100%;
+  }
+
+  .simply {
+    position: static;
+
+    width: 100%;
+
+    margin-top: 20px;
+  }
+
+  .cards {
+    flex-direction: column;
+
+    padding: 20px;
+  }
+
+  .cardstyle {
+    max-width: 100%;
+  }
+}
+
+/* MOBILE EXTRA */
+@media (max-width: 480px) {
+
+  .hero h2 {
+    font-size: 34px;
+  }
+
+  .badge {
+    font-size: 10px;
+  }
+
+  .titulos {
+    font-size: 16px;
+  }
+
+}
