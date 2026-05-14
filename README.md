@@ -29,7 +29,6 @@ A página possui:
 
 * HTML5
 * CSS3
-* JavaScript
 * Google Fonts
 * Material Symbols
 
@@ -42,7 +41,6 @@ projeto/
 │
 ├── index.html
 ├── index.css
-├── script.js
 ├── foto1.png
 └── README.md
 ```
@@ -194,11 +192,4 @@ O objetivo da atividade foi aplicar conceitos de:
 * CSS3
 * Responsividade
 * Estruturação de Layout
-* Interatividade com JavaScript
-* Design moderno para aplicações web
 
----
-
-# 📄 Licença
-
-Este projeto pode ser utilizado para fins educacionais e portfólio.
