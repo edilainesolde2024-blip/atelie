@@ -1,6 +1,6 @@
 # The Digital Atelier
 
-Landing page moderna e responsiva desenvolvida com HTML, CSS e JavaScript puro.
+Landing page moderna e responsiva desenvolvida com HTML, CSS
 
 ## ✨ Sobre o Projeto
 
