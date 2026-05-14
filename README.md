@@ -1,6 +1,6 @@
 # The Digital Atelier
 
-Landing page moderna e responsiva desenvolvida com HTML, CSS
+Landing page moderna e responsiva desenvolvida com HTML e CSS.
 
 ## ✨ Sobre o Projeto
 
@@ -41,6 +41,7 @@ projeto/
 │
 ├── index.html
 ├── index.css
+├── script.js
 ├── foto1.png
 └── README.md
 ```
@@ -184,6 +185,10 @@ no navegador.
 
 # 👩‍💻 Autor
 
+<div align="center">
+  <img src="https://logodownload.org/wp-content/uploads/2019/08/senai-logo.png" alt="Logo SENAI" width="180">
+</div>
+
 Projeto desenvolvido como atividade avaliativa do curso de Análise e Desenvolvimento de Sistemas do SENAI Sorocaba, na disciplina de Desenvolvimento WEB.
 
 O objetivo da atividade foi aplicar conceitos de:
@@ -192,4 +197,10 @@ O objetivo da atividade foi aplicar conceitos de:
 * CSS3
 * Responsividade
 * Estruturação de Layout
+* Design moderno para aplicações web
 
+---
+
+# 📄 Licença
+
+Este projeto pode ser utilizado para fins educacionais e portfólio.
